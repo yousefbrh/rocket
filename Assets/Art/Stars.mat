@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stars
+  m_Shader: {fileID: 4800000, guid: 97c9794f91375e440a885071d5d36297, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BG:
+        m_Texture: {fileID: 2800000, guid: a3b27bb2430f0f243ae2bbfb51541674, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: b5481abe82b102440b7a3c688bd416ea, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _stars:
+        m_Texture: {fileID: 2800000, guid: 2ffe6b0d12c399a4180329fea9012900, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: -0.51, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _15: 15
+    - _AlphaCutoff: 0.5
+    - _ColorTinitAlpha: 0.18
+    - _EmissionPower: 1.03
+    - _Float1: 0.135
+    m_Colors:
+    - _Color0: {r: 0.6981132, g: 0, b: 0.6981132, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
